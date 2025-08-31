@@ -22,9 +22,11 @@ def implied_volatility(price, S, K, T, r, option_type='call'):
     try:
         vol = brentq(
                 lambda sigma: black_scholes_price(S, K, T, r, sigma, option_type) - price,
-                1e-6, 3.0  # bounds for volatility
+                1e-6, 3.0  
             )
-        return vol  # Return as percentage
+        return vol  
     except ValueError:
-        return np.nan  # Return NaN if no solution is found
+        return np.nan  
+    
+    
     
