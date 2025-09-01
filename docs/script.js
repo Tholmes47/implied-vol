@@ -35,7 +35,7 @@ async function startTimelapse() {
     }
     const path = `data/${ticker}/${dates[frameIndex]}`;
     console.log("Loading frame:", path);
-    surfaceFrame.src = path;
+    surfaceFrame.src = `/data/${ticker}/${dates[frameIndex]}`;
     frameIndex++;
   }, parseInt(speedInput.value, 10));
 }
