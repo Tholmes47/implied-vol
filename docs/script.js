@@ -6,39 +6,47 @@ const tickerSelect = document.getElementById("ticker");
 
 let timer = null;
 let frameIndex = 0;
-let datesCache = {};
 
-// Example: replace with JSON manifest later if you automate it
-async function fetchDates(ticker) {
-  if (datesCache[ticker]) return datesCache[ticker];
+// Hardcoded example — you can automate later with a JSON manifest
+const surfaces = {
+  "AAPL": ["2025-08-30_surface.html", "2025-09-01_surface.html"],
+  "MSFT": ["2025-08-30_surface.html", "2025-09-01_surface.html"]
+};
 
-  // Hardcoded demo list — must match files in docs/data/<TICKER>/
-  const files = [
-    "2025-08-30_surface.html",
-    "2025-09-01_surface.html"
-  ];
-
-  datesCache[ticker] = files;
-  return files;
+// Load a single frame in the iframe
+function loadFrame(ticker, index) {
+  if (!surfaces[ticker] || index >= surfaces[ticker].length) return;
+  surfaceFrame.src = `/data/${ticker}/${surfaces[ticker][index]}`;
 }
 
-async function startTimelapse() {
-  clearInterval(timer); // stop any previous run
+// Start timelapse
+function play() {
   const ticker = tickerSelect.value;
-  const dates = await fetchDates(ticker);
-
+  clearInterval(timer);
   frameIndex = 0;
+
   timer = setInterval(() => {
-    if (frameIndex >= dates.length) {
-      clearInterval(timer);
-      return;
-    }
-    const path = `data/${ticker}/${dates[frameIndex]}`;
-    console.log("Loading frame:", path);
-    surfaceFrame.src = `/data/${ticker}/${dates[frameIndex]}`;
+    loadFrame(ticker, frameIndex);
     frameIndex++;
+    if (frameIndex >= surfaces[ticker].length) {
+      clearInterval(timer);
+      frameIndex = 0; // reset for replay
+    }
   }, parseInt(speedInput.value, 10));
 }
 
-playBtn.addEventListener("click", startTimelapse);
-pauseBtn.addEventListener("click", () => clearInterval(timer));
+// Pause timelapse
+function pause() {
+  clearInterval(timer);
+}
+
+// Event listeners
+playBtn.addEventListener("click", play);
+pauseBtn.addEventListener("click", pause);
+tickerSelect.addEventListener("change", () => {
+  frameIndex = 0;
+  loadFrame(tickerSelect.value, frameIndex);
+});
+
+// Initialize first frame
+loadFrame(tickerSelect.value, frameIndex);
