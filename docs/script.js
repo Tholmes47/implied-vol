@@ -16,8 +16,7 @@ const surfaces = {
 // Load a single frame in the iframe
 function loadFrame(ticker, index) {
   if (!surfaces[ticker] || index >= surfaces[ticker].length) return;
-  surfaceFrame.src = `/data/${ticker}/${dates[frameIndex]}`;
-
+  surfaceFrame.src = `data/${ticker}/${surfaces[ticker][index]}`;
 }
 
 // Start timelapse
