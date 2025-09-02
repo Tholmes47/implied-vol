@@ -23,7 +23,7 @@ function extractDate(filename) {
 function loadFrame(ticker, index) {
   if (!surfaces[ticker] || index >= surfaces[ticker].length) return;
   const file = surfaces[ticker][index];
-  surfaceFrame.src = `docs/data/${ticker}/${file}`;
+  surfaceFrame.src = `data/${ticker}/${file}`;
   dateDisplay.textContent = `Date: ${extractDate(file)}`;
 }
 
