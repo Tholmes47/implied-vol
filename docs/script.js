@@ -9,8 +9,8 @@ let frameIndex = 0;
 
 // Hardcoded example — you can automate later with a JSON manifest
 const surfaces = {
-  "AAPL": ["2025-08-30_surface.html", "2025-09-01_surface.html"],
-  "MSFT": ["2025-08-30_surface.html", "2025-09-01_surface.html"]
+  "AAPL": ["2025-08-31_surface.html", "2025-09-01_surface.html"],
+  "MSFT": ["2025-08-31_surface.html", "2025-09-01_surface.html"]
 };
 
 // Load a single frame in the iframe
