@@ -3,22 +3,29 @@ const playBtn = document.getElementById("play");
 const pauseBtn = document.getElementById("pause");
 const speedInput = document.getElementById("speed");
 const tickerSelect = document.getElementById("ticker");
+const dateDisplay = document.getElementById("dateDisplay");
 
 let timer = null;
 let frameIndex = 0;
 
-// Hardcoded example — you can automate later with a JSON manifest
+// Hardcoded example — automate later with a manifest
 const surfaces = {
   "AAPL": ["2025-08-31_surface.html", "2025-09-01_surface.html"],
   "MSFT": ["2025-08-31_surface.html", "2025-09-01_surface.html"]
 };
 
+// Helper: extract date from filename
+function extractDate(filename) {
+  return filename.split("_")[0]; // e.g. "2025-09-01"
+}
+
 // Load a single frame in the iframe
 function loadFrame(ticker, index) {
   if (!surfaces[ticker] || index >= surfaces[ticker].length) return;
-  surfaceFrame.src = `data/${ticker}/${surfaces[ticker][index]}`;
+  const file = surfaces[ticker][index];
+  surfaceFrame.src = `docs/data/${ticker}/${file}`;
+  dateDisplay.textContent = `Date: ${extractDate(file)}`;
 }
-
 
 // Start timelapse
 function play() {
