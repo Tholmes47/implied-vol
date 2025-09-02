@@ -120,7 +120,11 @@ def estimate_iv_surface(stock, expiration_dates, r, strike_percent_range):
     output_path = f"docs/data/{stock.ticker}/{datetime.today().date()}_surface.html"
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
-    fig.write_html(output_path, include_plotlyjs='cdn')
+    fig.write_html(
+    output_path,
+    include_plotlyjs="inline",
+    full_html=True
+)
     
     return fig
 
