@@ -19,6 +19,7 @@ function loadFrame(ticker, index) {
   surfaceFrame.src = `data/${ticker}/${surfaces[ticker][index]}`;
 }
 
+
 // Start timelapse
 function play() {
   const ticker = tickerSelect.value;
