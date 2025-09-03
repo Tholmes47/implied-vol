@@ -29,3 +29,4 @@ def create_manifest():
 
 if __name__ == "__main__":
     main()
+    create_manifest()
