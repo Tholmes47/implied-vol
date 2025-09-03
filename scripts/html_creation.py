@@ -23,7 +23,7 @@ def create_manifest():
         if os.path.isdir(ticker_path):
             files = sorted(os.listdir(ticker_path))
             manifest[ticker] = files
-    with open(os.path.join(data_dir, "manifest.json"), "W") as f:
+    with open(os.path.join(data_dir, "manifest.json"), "w") as f:
         json.dump(manifest, f, indent=2)
 
 
