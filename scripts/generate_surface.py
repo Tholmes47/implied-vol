@@ -122,8 +122,8 @@ def estimate_iv_surface(stock, expiration_dates, r, strike_percent_range):
 
     fig.write_html(
     output_path,
-    include_plotlyjs="inline",
-    full_html=True
+    include_plotlyjs="cdn",
+    
 )
     
     return fig
