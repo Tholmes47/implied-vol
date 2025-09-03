@@ -4,6 +4,7 @@ const pauseBtn = document.getElementById("pause");
 const speedInput = document.getElementById("speed");
 const tickerSelect = document.getElementById("ticker");
 const dateDisplay = document.getElementById("dateDisplay");
+const frameSlider = document.getElementById("frameSlider");
 
 let timer = null;
 let frameIndex = 0;
@@ -25,6 +26,8 @@ function loadFrame(ticker, index) {
   const file = surfaces[ticker][index];
   surfaceFrame.src = `data/${ticker}/${file}`;
   dateDisplay.textContent = `Date: ${extractDate(file)}`;
+
+  frameSlider.value = index;
 }
 
 // Start timelapse
@@ -32,6 +35,7 @@ function play() {
   const ticker = tickerSelect.value;
   clearInterval(timer);
   frameIndex = 0;
+  frameSlider.max = surfaces[ticker].length - 1;
 
   timer = setInterval(() => {
     loadFrame(ticker, frameIndex);
@@ -48,13 +52,22 @@ function pause() {
   clearInterval(timer);
 }
 
+frameSlider.addEventListener("input", () => {
+  const ticker = tickerSelect.value;
+  frameIndex = parseInt(frameSlider.value, 10);
+  loadFrame(ticker, frameIndex);
+});
+
 // Event listeners
 playBtn.addEventListener("click", play);
 pauseBtn.addEventListener("click", pause);
 tickerSelect.addEventListener("change", () => {
   frameIndex = 0;
+  frameSlider.max = surfaces[tickerSelect.value].length - 1;
   loadFrame(tickerSelect.value, frameIndex);
 });
 
 // Initialize first frame
 loadFrame(tickerSelect.value, frameIndex);
+frameSlider.max = surfaces[tickerSelect.value].length - 1;
+
