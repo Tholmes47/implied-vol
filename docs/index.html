@@ -11,7 +11,14 @@
   <label for="ticker">Select ticker:</label>
   <select id="ticker">
     <option value="AAPL">AAPL</option>
+    <option value="AMZN">AMZN</option>
+    <option value="GOOGL">GOOGL</option>
+    <option value="META">META</option>
     <option value="MSFT">MSFT</option>
+    <option value="NFLX">NFLX</option>
+    <option value="NVDA">NVDA</option>
+    <option value="SPY">SPY</option>
+    <option value="TSLA">TSLA</option>
   </select>
 
   <div id="controls">
@@ -22,11 +29,9 @@
 
   <iframe id="surfaceFrame" width="100%" height="600"></iframe>
 
-  <div id="dateDisplay" style="margin-top:10px; font-weight:bold; font-size:18px;"></div>
-
-  <div id="sliderContainer">
-    <input type = "range" id="frameSlider" min="0"  value="0">
-    <span id = "dateDisplay"> </span>
+  <div id="sliderContainer" style="margin-top:10px;">
+    <input type="range" id="frameSlider" min="0" value="0">
+    <span id="dateDisplay" style="font-weight:bold; font-size:18px;"></span>
   </div>
 
   <script src="script.js"></script>
