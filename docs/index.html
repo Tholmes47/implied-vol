@@ -21,17 +21,15 @@
     <option value="TSLA">TSLA</option>
   </select>
 
-  <div id="controls">
-    <button id="play">Play</button>
-    <button id="pause">Pause</button>
-    <label>Speed: <input id="speed" type="number" value="1000"> ms/frame</label>
-  </div>
+
 
   <iframe id="surfaceFrame" width="100%" height="600"></iframe>
 
   <div id="sliderContainer" style="margin-top:10px;">
     <input type="range" id="frameSlider" min="0" value="0">
     <span id="dateDisplay" style="font-weight:bold; font-size:18px;"></span>
+    <button id="prevFrame">&#8592</button>
+    <button id="nextFrame">&#8594</button>
   </div>
 
   <script src="script.js"></script>

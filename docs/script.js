@@ -117,5 +117,18 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
+
+  document.getElementById("prevFrame").addEventListener("click", () => {
+    const t = tickerSelect.value;
+    frameIndex = Math.max(0, parseInt(frameSlider.value, 10) - 1);
+    loadFrame(t, frameIndex);
+  });
+
+    document.getElementById("nextFrame").addEventListener("click", () => {
+    const t = tickerSelect.value;
+    frameIndex = Math.max(0, parseInt(frameSlider.value, 10) + 1);
+    loadFrame(t, frameIndex);
+  });
+
   init();
 });
