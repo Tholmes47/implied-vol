@@ -80,7 +80,8 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ],
   "MSFT": [
     "2025-08-31_surface.html",
@@ -163,7 +164,8 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ],
   "GOOGL": [
     "2025-08-31_surface.html",
@@ -246,7 +248,8 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ],
   "NFLX": [
     "2025-08-31_surface.html",
@@ -323,7 +326,8 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ],
   "AAPL": [
     "2025-08-31_surface.html",
@@ -405,7 +409,8 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ],
   "NVDA": [
     "2025-08-31_surface.html",
@@ -488,7 +493,8 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ],
   "SPY": [
     "2025-08-31_surface.html",
@@ -570,7 +576,8 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ],
   "TSLA": [
     "2025-08-31_surface.html",
@@ -653,7 +660,8 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ],
   "META": [
     "2025-08-31_surface.html",
@@ -736,6 +744,7 @@
     "2026-03-30_surface.html",
     "2026-04-01_surface.html",
     "2026-04-03_surface.html",
-    "2026-04-06_surface.html"
+    "2026-04-06_surface.html",
+    "2026-04-08_surface.html"
   ]
 }
