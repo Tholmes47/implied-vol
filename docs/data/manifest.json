@@ -107,7 +107,8 @@
     "2026-06-01_surface.html",
     "2026-06-03_surface.html",
     "2026-06-05_surface.html",
-    "2026-06-08_surface.html"
+    "2026-06-08_surface.html",
+    "2026-06-10_surface.html"
   ],
   "SPY": [
     "2025-08-31_surface.html",
@@ -216,7 +217,8 @@
     "2026-06-01_surface.html",
     "2026-06-03_surface.html",
     "2026-06-05_surface.html",
-    "2026-06-08_surface.html"
+    "2026-06-08_surface.html",
+    "2026-06-10_surface.html"
   ],
   "NVDA": [
     "2025-08-31_surface.html",
@@ -323,7 +325,8 @@
     "2026-05-25_surface.html",
     "2026-05-27_surface.html",
     "2026-05-29_surface.html",
-    "2026-06-05_surface.html"
+    "2026-06-05_surface.html",
+    "2026-06-10_surface.html"
   ],
   "MSFT": [
     "2025-08-31_surface.html",
@@ -431,7 +434,8 @@
     "2026-05-27_surface.html",
     "2026-05-29_surface.html",
     "2026-06-05_surface.html",
-    "2026-06-08_surface.html"
+    "2026-06-08_surface.html",
+    "2026-06-10_surface.html"
   ],
   "AMZN": [
     "2025-08-31_surface.html",
@@ -538,7 +542,8 @@
     "2026-05-25_surface.html",
     "2026-05-27_surface.html",
     "2026-05-29_surface.html",
-    "2026-06-05_surface.html"
+    "2026-06-05_surface.html",
+    "2026-06-10_surface.html"
   ],
   "AAPL": [
     "2025-08-31_surface.html",
@@ -644,7 +649,8 @@
     "2026-05-25_surface.html",
     "2026-05-27_surface.html",
     "2026-05-29_surface.html",
-    "2026-06-05_surface.html"
+    "2026-06-05_surface.html",
+    "2026-06-10_surface.html"
   ],
   "TSLA": [
     "2025-08-31_surface.html",
@@ -752,7 +758,8 @@
     "2026-05-27_surface.html",
     "2026-05-29_surface.html",
     "2026-06-03_surface.html",
-    "2026-06-05_surface.html"
+    "2026-06-05_surface.html",
+    "2026-06-10_surface.html"
   ],
   "GOOGL": [
     "2025-08-31_surface.html",
@@ -859,7 +866,8 @@
     "2026-05-25_surface.html",
     "2026-05-27_surface.html",
     "2026-05-29_surface.html",
-    "2026-06-05_surface.html"
+    "2026-06-05_surface.html",
+    "2026-06-10_surface.html"
   ],
   "NFLX": [
     "2025-08-31_surface.html",
@@ -960,6 +968,7 @@
     "2026-05-25_surface.html",
     "2026-05-27_surface.html",
     "2026-05-29_surface.html",
-    "2026-06-05_surface.html"
+    "2026-06-05_surface.html",
+    "2026-06-10_surface.html"
   ]
 }
