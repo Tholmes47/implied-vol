@@ -102,7 +102,8 @@
     "2026-06-10_surface.html",
     "2026-06-19_surface.html",
     "2026-06-24_surface.html",
-    "2026-06-26_surface.html"
+    "2026-06-26_surface.html",
+    "2026-07-01_surface.html"
   ],
   "MSFT": [
     "2025-08-31_surface.html",
@@ -443,7 +444,8 @@
     "2026-06-19_surface.html",
     "2026-06-22_surface.html",
     "2026-06-24_surface.html",
-    "2026-06-26_surface.html"
+    "2026-06-26_surface.html",
+    "2026-07-01_surface.html"
   ],
   "AAPL": [
     "2025-08-31_surface.html",
@@ -675,7 +677,8 @@
     "2026-06-22_surface.html",
     "2026-06-24_surface.html",
     "2026-06-26_surface.html",
-    "2026-06-29_surface.html"
+    "2026-06-29_surface.html",
+    "2026-07-01_surface.html"
   ],
   "META": [
     "2025-08-31_surface.html",
@@ -794,7 +797,8 @@
     "2026-06-22_surface.html",
     "2026-06-24_surface.html",
     "2026-06-26_surface.html",
-    "2026-06-29_surface.html"
+    "2026-06-29_surface.html",
+    "2026-07-01_surface.html"
   ],
   "TSLA": [
     "2025-08-31_surface.html",
@@ -909,7 +913,8 @@
     "2026-06-19_surface.html",
     "2026-06-22_surface.html",
     "2026-06-24_surface.html",
-    "2026-06-26_surface.html"
+    "2026-06-26_surface.html",
+    "2026-07-01_surface.html"
   ],
   "NVDA": [
     "2025-08-31_surface.html",
@@ -1020,6 +1025,7 @@
     "2026-06-10_surface.html",
     "2026-06-19_surface.html",
     "2026-06-24_surface.html",
-    "2026-06-26_surface.html"
+    "2026-06-26_surface.html",
+    "2026-07-01_surface.html"
   ]
 }
