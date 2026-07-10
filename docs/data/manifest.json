@@ -106,7 +106,8 @@
     "2026-07-01_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ],
   "MSFT": [
     "2025-08-31_surface.html",
@@ -224,7 +225,8 @@
     "2026-06-26_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ],
   "AMZN": [
     "2025-08-31_surface.html",
@@ -338,7 +340,8 @@
     "2026-06-26_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ],
   "GOOGL": [
     "2025-08-31_surface.html",
@@ -457,7 +460,8 @@
     "2026-07-01_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ],
   "AAPL": [
     "2025-08-31_surface.html",
@@ -574,7 +578,8 @@
     "2026-06-26_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ],
   "SPY": [
     "2025-08-31_surface.html",
@@ -696,7 +701,8 @@
     "2026-07-01_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ],
   "META": [
     "2025-08-31_surface.html",
@@ -819,7 +825,8 @@
     "2026-07-01_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ],
   "TSLA": [
     "2025-08-31_surface.html",
@@ -938,7 +945,8 @@
     "2026-07-01_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ],
   "NVDA": [
     "2025-08-31_surface.html",
@@ -1053,6 +1061,7 @@
     "2026-07-01_surface.html",
     "2026-07-03_surface.html",
     "2026-07-06_surface.html",
-    "2026-07-08_surface.html"
+    "2026-07-08_surface.html",
+    "2026-07-10_surface.html"
   ]
 }
