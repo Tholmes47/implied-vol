@@ -150,7 +150,8 @@
     "2026-09-18_surface.html",
     "2026-09-23_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ],
   "NVDA": [
     "2025-08-31_surface.html",
@@ -300,7 +301,8 @@
     "2026-10-07_surface.html",
     "2026-10-14_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ],
   "AMZN": [
     "2025-08-31_surface.html",
@@ -444,7 +446,8 @@
     "2026-09-18_surface.html",
     "2026-09-23_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ],
   "GOOGL": [
     "2025-08-31_surface.html",
@@ -606,7 +609,8 @@
     "2026-10-09_surface.html",
     "2026-10-12_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ],
   "AAPL": [
     "2025-08-31_surface.html",
@@ -752,7 +756,8 @@
     "2026-09-11_surface.html",
     "2026-09-18_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ],
   "NFLX": [
     "2025-08-31_surface.html",
@@ -892,7 +897,8 @@
     "2026-09-23_surface.html",
     "2026-10-14_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ],
   "MSFT": [
     "2025-08-31_surface.html",
@@ -1044,7 +1050,8 @@
     "2026-09-23_surface.html",
     "2026-09-25_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ],
   "SPY": [
     "2025-08-31_surface.html",
@@ -1210,7 +1217,8 @@
     "2026-10-12_surface.html",
     "2026-10-14_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ],
   "TSLA": [
     "2025-08-31_surface.html",
@@ -1365,6 +1373,7 @@
     "2026-10-02_surface.html",
     "2026-10-14_surface.html",
     "2026-10-16_surface.html",
-    "2026-10-19_surface.html"
+    "2026-10-19_surface.html",
+    "2026-10-21_surface.html"
   ]
 }
